@@ -1,2 +1,4 @@
 ---
-rebuild_podman: true
+podman_fedora_version: "{{ ansible_distribution_major_version }}"
+
+rebuild_podman: false
